@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+  h1 Send An Aero
+  p
+    form(method="POST" action="/aeros/new" enctype="multipart/form-data")
+      .form-group
+        label To
+        input.form-control.col-md-3(name="to" type="text")
+      .form-group
+        label From
+        input.form-control.col-md-3(name="from" type="text")
+      .form-group
+        label Attach document?
+        input.form-control-file.col-md-3(name="file" type="file")
+      button.btn.btn-primary(type="submit") Submit
