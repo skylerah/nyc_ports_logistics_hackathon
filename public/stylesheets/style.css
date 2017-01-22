@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+ul li {
+  display: inline;
+  padding-right: 10px;
+}

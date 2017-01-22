@@ -6,11 +6,17 @@ block content
     form(method="POST" action="/aeros/new" enctype="multipart/form-data")
       .form-group
         label To
-        input.form-control.col-md-3(name="to" type="text")
+        input.form-control.col-md-3(name="to" type="text" placeholder="skyler@azuqua.com...")
       .form-group
         label From
-        input.form-control.col-md-3(name="from" type="text")
+        input.form-control.col-md-3(name="from" type="text" placeholder="allison@azuqua.com...")
       .form-group
-        label Attach document?
+        label Expected Response Time
+        input.form-control.col-md-1(name="responseTime" type="text")
+      .form-group
+        label Request Category
+        input.form-control.col-md-2(name="requestCategory" type="text")
+      .form-group
+        label Attached Documents
         input.form-control-file.col-md-3(name="file" type="file")
       button.btn.btn-primary(type="submit") Submit

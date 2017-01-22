@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+  h2= aeroId
+  table.table
+    thead
+      tr
+        th #
+        th Request From:
+        th Requested Of:
+        th Status
+        th Action
+        th Expt. Response Time
+        th Avg. Response Time
+    tbody
+      tr
+        td= aeroId
+        td Skyler Hartle
+        td Allison Amaral
+        td Waiting Response
+        //emails the requestee by kicking off the FLO; passes in the kick-off request with the aero id
+        td
+          a(href="/#") Notify again?

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nyc-hackathon",
+  "private_key_id": "3deea46d9b1bd1fdb8565d6927cec63462658476",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwyh68ySUQGc0Q\nSiOOp4aXd4g5Pd+ffsorsZCJsHfVcW4X0lTQ1uTTJzW5gHy/mDYUnx2Qyhif1a+r\n3oS2iCQX7erWOPoNFyPSrhyXMq22ycnmh6nEqJfLQRuyuApCyUv1cYdeLnakfqmk\nx+nhyaXpjTmVmiNswE7Br1R1E3LO5qCfVSDCgwBkCnSvNU098bXU4+beONqnS8xO\nvRVp+zFOIrfifupysxlIKQrtFcodFB0foTsKDtpm4eEaTRT1EcWinjTqM/A2Y3Gc\nV5BjUdpisgtTxRR4mFq/+S+Zv6i4EdrgT/5BP7NNYPwyQTAdYp5/W+2dyu4Zx28I\n3832hVt7AgMBAAECggEBAIsFZkZupoaSw38bzfpQIrbZeHYLAd8ahUD20QJ1ksZ1\n/G0fKTNQyYCCRO0q7O59c4mj1kwVoGeQUiSFRzeCt19Z6GGtTHUezTzPTgxX/eLP\nq8VsyUOskDF1caKItwjt4p2QOTMGtqWENUMvMewr9hxCwhWysEjEsSn+BhxKvu2T\nfyAwK2NhC8c3Mb/8qVImuCwyd2TzdYoF6nqVaCA59VELCmdpOWd4Dc0NgmIXaWK4\nVvMLE4xdMz1iF7YomS6EnmPenMTEbF7F9ci8HSx7bD9LcUKwhUClLWwCqWJtgwhI\n9TDl/RPHWlQ4QH6b9pkoOkvXJTBhSNA1DrHxuI3OGwECgYEA5OM8tg0PrS23FQqP\ndn5drBi/JtpGiYu94M7yhQMZiWmiNC3F4/DvTpkp/By1EmgnXRkpIDXxM8SGNcAt\n82dH+p6aPDlq8KHxbp2g4pgopU0zfs8zKl4EV0zr3i5DLj3TSKOkVoXcnF9mSsOj\nuwpaVjyw2+7TpOo0WfSxOq9F49MCgYEAxbsQzxKJlUwWhzAPlBJlA9bLowxlloE6\n17TiJ9waDteLlafooQJu4fIFGd0LsrqPJ+0vWWutbenct4z8e1RBvce0zsnk+BfP\nxgqgPJLY+GOBAo12dHhPl5dfjSmQetia8A1TSQZQLt/mFbMkn87s2FWoCzVU8f2X\n20Nj2mnyaLkCgYAdlb2oLmIDWXBbuOS4RTcoYn56sCYD61scrsMsLC1l1JCRvATj\nJKZZ+3Qw0Skaevnzj6gAMNi/fzx1wCRwXL4yB8QZ2rYW6mfBi4BbKZ2/WA466t9L\nL6HSAvBN5J7sYDNqJTS9tknAsJgRO95y87CfivK1StZyb49avUUXN8aJ3wKBgDyB\n9S/Y1V9pjE9MRsgiJOVa2rAHgCLhYvdVdAuMkDDQhveCDW8QBox/+k2i1gyYiGxI\nab/scoL7GL7WlwDKlN+VeF/7amT9LGjHIafHrDu+f2EflwsnMfwKp4PUH1FobWle\nOolTNEBT5d3oFyIMOXAuLiFX7amr18eSRME2wKaJAoGBAL6CXjAXuMbzbI9Z/WkG\nreJVqy/zVncDBWI5JgByz9FbzcSKjs1swtH0FtSJPzLQM5enpc3VnwelA/ZEBCQK\nzh4t36J34M5cqj9G22DsQzk9+5JkpDcRURWRafXGXcEYZbXs1RHV1znkWy0jcR6T\nEhVeIGhMtSthU+caUETYT/ol\n-----END PRIVATE KEY-----\n",
+  "client_email": "nyc-hackathon@appspot.gserviceaccount.com",
+  "client_id": "100333084826843262979",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nyc-hackathon%40appspot.gserviceaccount.com"
+}

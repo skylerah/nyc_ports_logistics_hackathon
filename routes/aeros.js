@@ -8,6 +8,7 @@ var router = express.Router();
 
 //CR routes for aero object (request/response objects
 router.get('/', function(req, res) {
+  var db = req.app.db;
   res.render('aeros/index');
 });
 
@@ -38,14 +39,15 @@ router.post('/new', function(req, res) {
         });
     });
   });
-
-  //
   res.json('200 OK');
 });
 
-// //get aero at id
-// router.get('/aeros/:id', function(req, res) {
-//   //call to FLO API endpoint for requesting information about aero from database
-// });
+//get aero at id
+router.get('/:id', function(req, res) {
+  //call to FLO API endpoint for requesting information about aero from database
+  //pretend data that the FLO returned
+  var sampleAeroId = 'ab543ccdde3450032';
+  res.render('aeros/show', {aeroId: sampleAeroId});
+});
 
 module.exports = router;

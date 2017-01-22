@@ -1,5 +1,47 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .row(style="padding-bottom: 25px; padding-top: 25px;")
+      .col-md-12
+        h2 Lovelace Insights  
+    .row
+      .col-md-12
+        h4 Shipping Instances
+    .row
+      .col-md-12
+        //- .list-group
+        //-   a.list-group-item(href="/#")
+        //-     ul(style="list-style-type: none;")
+        //-       li 1
+        //-       li 2
+        //-       li 3
+        //-       li 4
+        table.table
+          thead
+            tr
+              th Container ID
+              th Owner of Shipment
+              th Import/Export
+              th Vessel Info
+              th Start Location
+              th End Location
+              th Start Time
+              th End Time
+              th Average Process Time
+              th Total Time in Process (Hours)
+              th Status
+          tbody
+              tr
+                td 
+                  a(href="/instances/302817AA3") 3323ABC44
+                td Skyler Hartle
+                td Import
+                td Cargo Cruiser
+                td New York, NY
+                td Seattle, WA
+                td 04/17/2017
+                td
+                td
+                td 72
+                td In Process
