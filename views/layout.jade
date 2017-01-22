@@ -6,7 +6,9 @@ html
   script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous")
   link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    include partials/_navbar.jade
+    .wrapper(style="padding-top: 75px; padding-bottom: 75px;")
+      block content
     script(src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js")
     script.
       // Initialize Firebase

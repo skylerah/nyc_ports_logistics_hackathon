@@ -2,31 +2,61 @@ extends ../layout
 
 block content
   .container
-    h3(style="color: blue;") Container Instance: a35544bddef32
     .row
-      //would pass the loaded instance with stages
       .col-md-12
+        h4 Container ID: #{id}
+    .row(style="padding-top: 40px;")
+      .col-md-12
+        //- .col-md-5
+        //-   .row.bg-warning(style="border: 1px solid black; margin-right: 30px;")
+        //-     .col-md-4.text-md-left
+        //-       .text=key
+        //-     .col-md-8.text-md-right
+        //-       .text #{stage.time_passed} hours elapsed, in process: #{stage.in_process}
+          
+        //- .col-md-5(style="font-size: 12px; border: 1px solid #E7E8ED;  padding: 10px; margin-right: 30px;")
+        //-   .list-group
+        //-     .d-flex.w-100.justify-content-between(style="padding-top: 10px; padding-bottom: 10px;")
+        //-       h5= key
+        //-       ul
+        //-         li
+        //-           small #{stage.time_passed} hours elapsed, in process: #{stage.in_process}
+        //-         li 
+        //-           small initial start time: #{stage.start_time}
+        //-     p.mb-1 employee/point of contact: #{stage.employee}
+        //-     p.mb-1 company contact: #{stage.co_contact}
+        //-     p.mb-1 associated company: #{stage.associated_co}
+            
         table.table
           thead
             tr
+              th Stage
               th Start Time
               th Close Time
               th Associate Company
               th Company Contact
               th Employee
-              th Data
-        //- h4 Activity Log
-        //- ul.list-group
-        //-   li.list-group-item
-        //-     table.table
-        //-       thead
-        //-         tr
-        //-           th Test
-        //-           th Test 2
-        //-           th Test 3
-        //-       tbody
-        //-         tr
-        //-           td 1
-        //-           td 2
-        //-           td 3
-        
+              th In Process
+              th Total Time in Process (hours)
+          tbody
+            each stage, key in stages
+              if stage.in_process === true
+                tr.table-success
+                  td= key
+                  td= stage.start_time
+                  td= stage.close_time
+                  td= stage.associate_co
+                  td= stage.co_contact
+                  td= stage.employee
+                  td= stage.in_process
+                  td= stage.time_passed
+              else
+                tr
+                  td= key
+                  td= stage.start_time
+                  td= stage.close_time
+                  td= stage.associate_co
+                  td= stage.co_contact
+                  td= stage.employee
+                  td= stage.in_process
+                  td= stage.time_passed
