@@ -24,7 +24,7 @@ block content
               th Shipper Contact
               th Import/Export
               th Start Location
-              th End Location
+              th Destination
               th Start Time
               th End Time
               th Average Process Time
@@ -38,9 +38,9 @@ block content
                 td= instance.shipper_contact
                 td= instance.import_export
                 td= instance.start_location
-                td= instance.end_location
+                td= instance.destination
                 td= instance.start_time
                 td= instance.end_time
                 td
                 td= instance.passedTime
-                td= instance.status
+                td= instance.in_process
